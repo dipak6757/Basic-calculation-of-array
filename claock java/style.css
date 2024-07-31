@@ -1,0 +1,22 @@
+body
+{
+    background-color: black;
+    color: bisque;
+    font-size: 160px;
+}
+.main
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.box
+{
+    background: rgba(255, 255, 255, 0);
+box-shadow: 0 8px 72px 0 rgb(118, 93, 120);
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 10px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
